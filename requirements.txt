@@ -1,0 +1,22 @@
+# Speech Emotion Recognition — RAVDESS
+# Install with: pip install -r requirements.txt
+
+# Core ML
+tensorflow>=2.12.0
+scikit-learn>=1.3.0
+
+# Audio
+librosa>=0.10.0
+soundfile>=0.12.0
+audiomentations>=0.33.0    # optional — for training augmentation
+
+# Data / Plotting
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tqdm>=4.65.0
+
+# GUI
+gradio>=4.0.0
+pillow>=10.0.0

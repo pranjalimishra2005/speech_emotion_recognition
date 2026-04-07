@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+.venv/
+
+# Data
+archive*/
+*.wav
+*.mp3
+
+# Outputs
+ser_output*/
+
+# Models
+*.h5
+*.pt
+*.pth
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
